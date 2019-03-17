@@ -71,7 +71,6 @@
 			children = (
 				AA7ABEFE223DD08D00ECB78F /* Eternity */,
 				AA7ABEFD223DD08D00ECB78F /* Products */,
-				D8EE2F92223E48440057B6F5 /* Charts.framework */,
 				E002CAB9AAEACBCE9F049C49 /* Pods */,
 				E71ACCCC4F104F70B43E065F /* Frameworks */,
 			);
@@ -122,6 +121,7 @@
 		E71ACCCC4F104F70B43E065F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D8EE2F92223E48440057B6F5 /* Charts.framework */,
 				29EDD21D817E5908DA2661F4 /* Pods_Eternity.framework */,
 			);
 			name = Frameworks;
