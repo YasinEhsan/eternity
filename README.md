@@ -7,9 +7,7 @@ Hackrpi environmental track iOS app.
 
 
 ## Video Walkthrough
-<a href="https://www.youtube.com/watch?v=gSI7npZ-dwk
-" target="_blank">
-alt="Youtube Demo" width="240" height="180" border="10" /></a>
+[Youtube link](https://www.youtube.com/watch?v=MBVfbk3DaxU)
 
 
 
