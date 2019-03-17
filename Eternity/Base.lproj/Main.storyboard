@@ -67,12 +67,6 @@
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YYF-md-SlY" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="cdt-YG-Mzg" customClass="TableViewController" customModule="Eternity" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ll2-Qo-OAR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.62556380033493042" green="0.75078493356704712" blue="0.91819304227828979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="M8x-oe-gcP"/>
-                    </view>
                     <tabBarItem key="tabBarItem" title="Travel" id="vGE-Yx-dcu"/>
                 </viewController>
             </objects>
