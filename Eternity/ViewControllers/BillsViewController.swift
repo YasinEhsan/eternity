@@ -72,48 +72,12 @@ class BillsViewController:UIViewController, UITableViewDataSource, UITableViewDe
             
             
             
-            if let uploadData = self.provideImageData.myImge.image!.pngData() {
+            if let uploadData = self.myImg.image!.pngData() {
                 
                 
                 
                 storageRef.putData(uploadData, metadata: nil, completion: { (_, err) in
-                    
-                    
-                    
-                    if let error = error {
-                        
-                        print(error)
-                        
-                        return
-                        
-                    }
-                    
-                    
-                    
-                    storageRef.downloadURL(completion: { (url, err) in
-                        
-                        if let err = err {
-                            
-                            print(err)
-                            
-                            return
-                            
-                        }
-                        
-                        
-                        
-                        guard let url = url else { return }
-                        
-                        let values = ["name": name, "email": email, "profileImageUrl": url.absoluteString]
-                        
-                        
-                        
-                        self.registerUserIntoDatabaseWithUID(uid, values: values as [String : AnyObject])
-                        
-                    })
-                    
-                    
-                    
+            
                 })
                 
             }
