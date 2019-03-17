@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1B214770223E094E002C93DA /* BillsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B21476F223E094E002C93DA /* BillsCell.swift */; };
+		1B214780223E266B002C93DA /* TravelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B21477F223E266B002C93DA /* TravelCell.swift */; };
 		8C0F6432B62E52F775FA8DAE /* Pods_Eternity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EDD21D817E5908DA2661F4 /* Pods_Eternity.framework */; };
 		AA7ABF00223DD08D00ECB78F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7ABEFF223DD08D00ECB78F /* AppDelegate.swift */; };
 		AA7ABF05223DD08D00ECB78F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7ABF03223DD08D00ECB78F /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		1B21476F223E094E002C93DA /* BillsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsCell.swift; sourceTree = "<group>"; };
+		1B21477F223E266B002C93DA /* TravelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCell.swift; sourceTree = "<group>"; };
 		29EDD21D817E5908DA2661F4 /* Pods_Eternity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eternity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6458B9430D9396AE63AB6F3F /* Pods-Eternity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eternity.debug.xcconfig"; path = "Target Support Files/Pods-Eternity/Pods-Eternity.debug.xcconfig"; sourceTree = "<group>"; };
 		A75722111D4498BEA8A045EF /* Pods-Eternity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eternity.release.xcconfig"; path = "Target Support Files/Pods-Eternity/Pods-Eternity.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				AAC1FBB5223DF65300590894 /* BillsViewController.swift */,
 				AAC1FBB7223DF66700590894 /* FoodViewController.swift */,
 				1B21476F223E094E002C93DA /* BillsCell.swift */,
+				1B21477F223E266B002C93DA /* TravelCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAC1FBA8223DEC0F00590894 /* TableViewController.swift in Sources */,
+				1B214780223E266B002C93DA /* TravelCell.swift in Sources */,
 				AA7ABF00223DD08D00ECB78F /* AppDelegate.swift in Sources */,
 				AAC1FBB6223DF65300590894 /* BillsViewController.swift in Sources */,
 				AAC1FBB0223DF5FE00590894 /* TravelViewController.swift in Sources */,
