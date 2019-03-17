@@ -33,11 +33,17 @@ class FoodViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
+        
+        
         let cell = tableView .dequeueReusableCell(withIdentifier: "FoodCell") as! FoodCell
+        
+        cell.selectionStyle = UITableViewCell.SelectionStyle.none
+        cell.selectionStyle = .none
+        
         //let cell = UITableViewCell()
         //let cell = tableView.dequeueReusableCell(withIdentifier: "HistoryCell", for: indexPath) as UITableViewCell
-        cell.foodName.text = foodLst[indexPath.row]
-        cell.foodImage.image = UIImage(named: "orange.jpg")
+        cell.foodImage.image = UIImage(named: foodLst[indexPath.row] + ".jpg")
+        cell.foodName.text = String(foodLst[indexPath.row]).uppercased()
         return cell
     }
     
