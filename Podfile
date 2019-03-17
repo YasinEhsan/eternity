@@ -6,5 +6,6 @@ target 'Eternity' do
   use_frameworks!
 
   # Pods for MyApp
-  
+  pod 'Charts'
+  pod 'ChartsRealm'
 end

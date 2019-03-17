@@ -13,11 +13,27 @@
 		AA7ABF07223DD08F00ECB78F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7ABF06223DD08F00ECB78F /* Assets.xcassets */; };
 		AA7ABF0A223DD08F00ECB78F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7ABF08223DD08F00ECB78F /* LaunchScreen.storyboard */; };
 		AAC1FBA8223DEC0F00590894 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBA7223DEC0F00590894 /* TableViewController.swift */; };
-		AAC1FBAA223DF1D400590894 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBA9223DF1D400590894 /* HomeViewController.swift */; };
 		AAC1FBB0223DF5FE00590894 /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBAF223DF5FE00590894 /* TravelViewController.swift */; };
 		AAC1FBB6223DF65300590894 /* BillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBB5223DF65300590894 /* BillsViewController.swift */; };
 		AAC1FBB8223DF66700590894 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBB7223DF66700590894 /* FoodViewController.swift */; };
+		D8EE2FAD223E56080057B6F5 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EE2F92223E48440057B6F5 /* Charts.framework */; };
+		D8EE2FAE223E56080057B6F5 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8EE2F92223E48440057B6F5 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D8EE2FB3223E58300057B6F5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBA9223DF1D400590894 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D8EE2FAC223E4DC80057B6F5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D8EE2FAE223E56080057B6F5 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		29EDD21D817E5908DA2661F4 /* Pods_Eternity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eternity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +50,7 @@
 		AAC1FBAF223DF5FE00590894 /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
 		AAC1FBB5223DF65300590894 /* BillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsViewController.swift; sourceTree = "<group>"; };
 		AAC1FBB7223DF66700590894 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		D8EE2F92223E48440057B6F5 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Charts.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C0F6432B62E52F775FA8DAE /* Pods_Eternity.framework in Frameworks */,
+				D8EE2FAD223E56080057B6F5 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +71,7 @@
 			children = (
 				AA7ABEFE223DD08D00ECB78F /* Eternity */,
 				AA7ABEFD223DD08D00ECB78F /* Products */,
+				D8EE2F92223E48440057B6F5 /* Charts.framework */,
 				E002CAB9AAEACBCE9F049C49 /* Pods */,
 				E71ACCCC4F104F70B43E065F /* Frameworks */,
 			);
@@ -119,6 +138,8 @@
 				AA7ABEF8223DD08D00ECB78F /* Sources */,
 				AA7ABEF9223DD08D00ECB78F /* Frameworks */,
 				AA7ABEFA223DD08D00ECB78F /* Resources */,
+				D8EE2FAC223E4DC80057B6F5 /* Embed Frameworks */,
+				8CABFC20284E5BC19D54F605 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,6 +197,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		8CABFC20284E5BC19D54F605 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Eternity/Pods-Eternity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eternity/Pods-Eternity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B3A612AA1584793F01E2DC9F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,7 +253,7 @@
 				AAC1FBB6223DF65300590894 /* BillsViewController.swift in Sources */,
 				AAC1FBB0223DF5FE00590894 /* TravelViewController.swift in Sources */,
 				AAC1FBB8223DF66700590894 /* FoodViewController.swift in Sources */,
-				AAC1FBAA223DF1D400590894 /* HomeViewController.swift in Sources */,
+				D8EE2FB3223E58300057B6F5 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,11 +397,14 @@
 		};
 		AA7ABF0F223DD08F00ECB78F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6458B9430D9396AE63AB6F3F /* Pods-Eternity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4L2JW8YQE4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Eternity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -373,11 +419,14 @@
 		};
 		AA7ABF10223DD08F00ECB78F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A75722111D4498BEA8A045EF /* Pods-Eternity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4L2JW8YQE4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Eternity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
