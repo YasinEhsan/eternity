@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,13 +17,40 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon4 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="iln-oK-gDc">
+                                <rect key="frame" x="0.0" y="89" width="375" height="430"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ETERNITY" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vS0-jA-5aF">
+                                <rect key="frame" x="51" y="517" width="272" height="70"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.25" height="1"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="61"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="vS0-jA-5aF" secondAttribute="bottom" constant="80" id="9FU-t8-HI9"/>
+                            <constraint firstItem="vS0-jA-5aF" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="497" id="C9k-Zw-Jhk"/>
+                            <constraint firstAttribute="bottom" secondItem="iln-oK-gDc" secondAttribute="bottom" constant="148" id="DGu-Za-4jH"/>
+                            <constraint firstItem="iln-oK-gDc" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="LwH-Sx-tk8"/>
+                            <constraint firstItem="iln-oK-gDc" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="89" id="QDt-cd-mvB"/>
+                            <constraint firstItem="iln-oK-gDc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="YkQ-Pa-jmF"/>
+                            <constraint firstItem="iln-oK-gDc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="5" id="agg-Pt-sVO"/>
+                            <constraint firstItem="vS0-jA-5aF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="35" id="bQv-FN-ZIU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vS0-jA-5aF" secondAttribute="trailing" constant="36" id="exC-gg-Wp1"/>
+                            <constraint firstAttribute="trailing" secondItem="iln-oK-gDc" secondAttribute="trailing" id="tIQ-jZ-0oC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon4 (1)" width="333" height="412.5"/>
+    </resources>
 </document>

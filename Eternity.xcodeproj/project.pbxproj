@@ -33,6 +33,7 @@
 		AAD19DEF223E6ADA0076776F /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD19DEE223E6ADA0076776F /* ScannerViewController.swift */; };
 		AAD19DF1223E6AE40076776F /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD19DF0223E6AE30076776F /* FoodCell.swift */; };
 		AAD19DF3223E6B040076776F /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AAD19DF2223E6B040076776F /* MobileNet.mlmodel */; };
+		D8EE2FB9223E87C00057B6F5 /* Capture.PNG in Resources */ = {isa = PBXBuildFile; fileRef = D8EE2FB8223E87C00057B6F5 /* Capture.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		AAD19DEE223E6ADA0076776F /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		AAD19DF0223E6AE30076776F /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
 		AAD19DF2223E6B040076776F /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		D8EE2FB8223E87C00057B6F5 /* Capture.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Capture.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		AAC1FBAE223DF58E00590894 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				D8EE2FB8223E87C00057B6F5 /* Capture.PNG */,
 				AAC1FBAF223DF5FE00590894 /* TravelViewController.swift */,
 				AAC1FBA9223DF1D400590894 /* HomeViewController.swift */,
 				AAC1FBB5223DF65300590894 /* BillsViewController.swift */,
@@ -225,6 +228,7 @@
 			files = (
 				AA7ABF0A223DD08F00ECB78F /* LaunchScreen.storyboard in Resources */,
 				AAD19DE2223E6AA20076776F /* pizza, pizza pie.jpg in Resources */,
+				D8EE2FB9223E87C00057B6F5 /* Capture.PNG in Resources */,
 				AA7ABF07223DD08F00ECB78F /* Assets.xcassets in Resources */,
 				AAD19DE3223E6AA20076776F /* orange.jpg in Resources */,
 				AAD19DE8223E6AA20076776F /* apple.jpg in Resources */,
