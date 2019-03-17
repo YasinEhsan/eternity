@@ -1,33 +1,29 @@
 # Eternity
 Hackrpi environmental track iOS app.
 
-**Pitch:** 
+**Pitch:** iOS app that empowers users to be aware of resource consumption.
 
 **Built With:** Swift, Xcode, Figma, Google Cloud Firebase, IBM Watson Assistant, Twilio
 
-**Inspiration**
-
 
 ## Video Walkthrough
-![](p3.gif)
+[linkname](https://www.youtube.com/upload)
 
 
-
-## Plan --> Prod
-![](p3.gif)
 
 ## Stand-Ups / Milestones
 - [x] (UX) Wireframes
 - [x] (Team) Sprints and scrum tickets.
 - [x] (UI) Instagram-Style view-controllers with respective branches
-- [x] (Backend) Real-time upload and download videos (GCP)
-- [ ] (Backend) Store feelings(comments) during "uplifting" moments (GCP)
-- [x] (AI) Death confirmation to send public eulogy chat bot (Twilio and Heroku)
-- [ ] (AI) Sentiment-Analysis disabling negative comments (Watson)
+- [x] (ML) Recognize grecery items.
+- [x] (Backend) Real-time upload and download images (GCP)
+- [x] (AI) Weekly awareness reminder (Twilio and Heroku)
 - [ ] (AI) Bot for speech-to-navigation for easier accessibility (Watson)
 
 ## Roadblocks Overcame
 - **Merge conflicts** with differnt pod folders in different branches (SOLVED!!!). 
+- Integrating AutoML feature in a dynammic scroll view.
+- Using GPX to test custom locations worldwide. 
 
 ## Useful Links
 - [git ignore + storyboard merge conflict resolves](https://guides.codepath.com/ios/Using-Git-with-Terminal)
