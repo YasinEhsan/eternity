@@ -104,6 +104,7 @@
 				FB38A5D2223E3F1F00098A7E /* FoodCell.swift */,
 				FB38A5C5223E034600098A7E /* ScannerViewController.swift */,
 				FB38A5C7223E049200098A7E /* MobileNet.mlmodel */,
+				FB38A5CB223E3EB500098A7E /* orange.jpg */,
 				FB38A5C9223E3EB500098A7E /* food */,
 			);
 			path = ViewControllers;
@@ -130,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				FB38A5CA223E3EB500098A7E /* pizza, pizza pie.jpg */,
-				FB38A5CB223E3EB500098A7E /* orange.jpg */,
 				FB38A5CC223E3EB500098A7E /* apple.jpg */,
 				FB38A5CD223E3EB500098A7E /* banana.jpg */,
 			);
