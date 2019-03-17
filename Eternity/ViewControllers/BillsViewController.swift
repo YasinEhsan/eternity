@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BillsViewController: UIViewController {
+class BillsViewController:UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -26,6 +26,18 @@ class BillsViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return data.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "BillsCell", for: indexPath) as! BillsCell
+        
+        cell.billsActionText.text = data[indexPath.row]
+        cell.billsImageView.image = UIImage(named: pics[indexPath.row])
+        
+        return cell
+    }
     
 
     /*
@@ -37,5 +49,5 @@ class BillsViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+        
 }
