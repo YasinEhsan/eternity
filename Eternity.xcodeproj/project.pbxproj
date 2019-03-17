@@ -32,6 +32,7 @@
 		FB38A5FA223E560700098A7E /* meat cleaver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5EF223E560700098A7E /* meat cleaver.jpg */; };
 		FB38A5FB223E560700098A7E /* broccoli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5F0223E560700098A7E /* broccoli.jpg */; };
 		FB38A5FD223E570B00098A7E /* button_add-512.png in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5FC223E570B00098A7E /* button_add-512.png */; };
+		AAD19DCC223E3C6D0076776F /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD19DCB223E3C6D0076776F /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		FB38A5EF223E560700098A7E /* meat cleaver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "meat cleaver.jpg"; sourceTree = "<group>"; };
 		FB38A5F0223E560700098A7E /* broccoli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broccoli.jpg; sourceTree = "<group>"; };
 		FB38A5FC223E570B00098A7E /* button_add-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_add-512.png"; sourceTree = "<group>"; };
+		AAD19DCB223E3C6D0076776F /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				AAC1FBAE223DF58E00590894 /* ViewControllers */,
 				AA7ABEFF223DD08D00ECB78F /* AppDelegate.swift */,
 				AA7ABF03223DD08D00ECB78F /* Main.storyboard */,
+				AAD19DCB223E3C6D0076776F /* TestViewController.swift */,
 				AAC1FBA7223DEC0F00590894 /* TableViewController.swift */,
 				AA7ABF06223DD08F00ECB78F /* Assets.xcassets */,
 				AA7ABF08223DD08F00ECB78F /* LaunchScreen.storyboard */,
@@ -273,6 +276,7 @@
 			files = (
 				FB38A5C8223E049200098A7E /* MobileNet.mlmodel in Sources */,
 				FB38A5C6223E034600098A7E /* ScannerViewController.swift in Sources */,
+				AAD19DCC223E3C6D0076776F /* TestViewController.swift in Sources */,
 				AAC1FBA8223DEC0F00590894 /* TableViewController.swift in Sources */,
 				AA7ABF00223DD08D00ECB78F /* AppDelegate.swift in Sources */,
 				AAC1FBB6223DF65300590894 /* BillsViewController.swift in Sources */,
