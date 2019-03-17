@@ -19,10 +19,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="U9V-JQ-6fg">
-                                <rect key="frame" x="16" y="44" width="343" height="609"/>
+                                <rect key="frame" x="16" y="44" width="343" height="619"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZR2-A9-yN6">
+                                <rect key="frame" x="144" y="671" width="87" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <state key="normal" title="+ ADD"/>
+                                <connections>
+                                    <action selector="add:" destination="vE0-Ue-WPX" eventType="touchUpInside" id="Oms-3B-T7u"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.89920896291732788" green="0.90946555137634277" blue="0.51739704608917236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="lUU-Uc-Dlg"/>
@@ -30,11 +39,12 @@
                     <tabBarItem key="tabBarItem" title="Food" id="dnb-Z3-1JZ"/>
                     <connections>
                         <outlet property="tableView" destination="U9V-JQ-6fg" id="uoE-du-EwS"/>
+                        <segue destination="oa8-i8-fBV" kind="show" identifier="camera" id="nHG-HV-Ge1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HX6-Wk-gMG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1366" y="-649"/>
+            <point key="canvasLocation" x="1365.5999999999999" y="-649.50738916256159"/>
         </scene>
         <!--Scanner-->
         <scene sceneID="I1f-ke-Zwg">
@@ -46,10 +56,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Mqz-Gh-2ZN"/>
                     </view>
+                    <connections>
+                        <segue destination="vE0-Ue-WPX" kind="show" identifier="foodVC" id="Ap3-lo-XXg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eW8-tk-LDY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1365.5999999999999" y="-1338.1773399014778"/>
+            <point key="canvasLocation" x="1366" y="-1370"/>
         </scene>
         <!--Home-->
         <scene sceneID="CuA-m7-Lhq">
@@ -120,4 +133,7 @@
             <point key="canvasLocation" x="2186" y="-330"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Ap3-lo-XXg"/>
+    </inferredMetricsTieBreakers>
 </document>
