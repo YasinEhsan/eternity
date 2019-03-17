@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		8C0F6432B62E52F775FA8DAE /* Pods_Eternity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EDD21D817E5908DA2661F4 /* Pods_Eternity.framework */; };
 		AA7ABF00223DD08D00ECB78F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7ABEFF223DD08D00ECB78F /* AppDelegate.swift */; };
-		AA7ABF02223DD08D00ECB78F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7ABF01223DD08D00ECB78F /* ViewController.swift */; };
 		AA7ABF05223DD08D00ECB78F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7ABF03223DD08D00ECB78F /* Main.storyboard */; };
 		AA7ABF07223DD08F00ECB78F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7ABF06223DD08F00ECB78F /* Assets.xcassets */; };
 		AA7ABF0A223DD08F00ECB78F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7ABF08223DD08F00ECB78F /* LaunchScreen.storyboard */; };
+		AAC1FBA8223DEC0F00590894 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBA7223DEC0F00590894 /* TableViewController.swift */; };
+		AAC1FBAA223DF1D400590894 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBA9223DF1D400590894 /* HomeViewController.swift */; };
+		AAC1FBB0223DF5FE00590894 /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBAF223DF5FE00590894 /* TravelViewController.swift */; };
+		AAC1FBB6223DF65300590894 /* BillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBB5223DF65300590894 /* BillsViewController.swift */; };
+		AAC1FBB8223DF66700590894 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBB7223DF66700590894 /* FoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +25,15 @@
 		A75722111D4498BEA8A045EF /* Pods-Eternity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eternity.release.xcconfig"; path = "Target Support Files/Pods-Eternity/Pods-Eternity.release.xcconfig"; sourceTree = "<group>"; };
 		AA7ABEFC223DD08D00ECB78F /* Eternity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eternity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7ABEFF223DD08D00ECB78F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA7ABF01223DD08D00ECB78F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA7ABF04223DD08D00ECB78F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA7ABF06223DD08F00ECB78F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA7ABF09223DD08F00ECB78F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA7ABF0B223DD08F00ECB78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC1FBA7223DEC0F00590894 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AAC1FBA9223DF1D400590894 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AAC1FBAF223DF5FE00590894 /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
+		AAC1FBB5223DF65300590894 /* BillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsViewController.swift; sourceTree = "<group>"; };
+		AAC1FBB7223DF66700590894 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +69,26 @@
 		AA7ABEFE223DD08D00ECB78F /* Eternity */ = {
 			isa = PBXGroup;
 			children = (
+				AAC1FBAE223DF58E00590894 /* ViewControllers */,
 				AA7ABEFF223DD08D00ECB78F /* AppDelegate.swift */,
-				AA7ABF01223DD08D00ECB78F /* ViewController.swift */,
 				AA7ABF03223DD08D00ECB78F /* Main.storyboard */,
+				AAC1FBA7223DEC0F00590894 /* TableViewController.swift */,
 				AA7ABF06223DD08F00ECB78F /* Assets.xcassets */,
 				AA7ABF08223DD08F00ECB78F /* LaunchScreen.storyboard */,
 				AA7ABF0B223DD08F00ECB78F /* Info.plist */,
 			);
 			path = Eternity;
+			sourceTree = "<group>";
+		};
+		AAC1FBAE223DF58E00590894 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AAC1FBAF223DF5FE00590894 /* TravelViewController.swift */,
+				AAC1FBA9223DF1D400590894 /* HomeViewController.swift */,
+				AAC1FBB5223DF65300590894 /* BillsViewController.swift */,
+				AAC1FBB7223DF66700590894 /* FoodViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		E002CAB9AAEACBCE9F049C49 /* Pods */ = {
@@ -77,7 +97,6 @@
 				6458B9430D9396AE63AB6F3F /* Pods-Eternity.debug.xcconfig */,
 				A75722111D4498BEA8A045EF /* Pods-Eternity.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,8 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA7ABF02223DD08D00ECB78F /* ViewController.swift in Sources */,
+				AAC1FBA8223DEC0F00590894 /* TableViewController.swift in Sources */,
 				AA7ABF00223DD08D00ECB78F /* AppDelegate.swift in Sources */,
+				AAC1FBB6223DF65300590894 /* BillsViewController.swift in Sources */,
+				AAC1FBB0223DF5FE00590894 /* TravelViewController.swift in Sources */,
+				AAC1FBB8223DF66700590894 /* FoodViewController.swift in Sources */,
+				AAC1FBAA223DF1D400590894 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

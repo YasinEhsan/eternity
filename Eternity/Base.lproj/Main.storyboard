@@ -10,33 +10,33 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Food-->
         <scene sceneID="wxN-W0-Ffb">
             <objects>
-                <viewController id="vE0-Ue-WPX" sceneMemberID="viewController">
+                <viewController id="vE0-Ue-WPX" customClass="FoodViewController" customModule="Eternity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PIy-cZ-G42">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.89920896291732788" green="0.90946555137634277" blue="0.51739704608917236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="lUU-Uc-Dlg"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="dnb-Z3-1JZ"/>
+                    <tabBarItem key="tabBarItem" title="Food" id="dnb-Z3-1JZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HX6-Wk-gMG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1366" y="-658"/>
         </scene>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="CuA-m7-Lhq">
             <objects>
-                <viewController id="V0P-18-IUG" sceneMemberID="viewController">
+                <viewController id="V0P-18-IUG" customClass="HomeViewController" customModule="Eternity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yrv-9f-dgW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.9094817042350769" green="0.64238232374191284" blue="0.50477290153503418" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="quW-7P-YL9"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="gaI-Ro-AGe"/>
+                    <tabBarItem key="tabBarItem" title="Home" id="gaI-Ro-AGe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ac1-N2-wnw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -62,33 +62,33 @@
             </objects>
             <point key="canvasLocation" x="-318" y="-65"/>
         </scene>
-        <!--View Controller-->
+        <!--Travel-->
         <scene sceneID="AQG-jR-14v">
             <objects>
-                <viewController id="cdt-YG-Mzg" sceneMemberID="viewController">
+                <viewController id="cdt-YG-Mzg" customClass="TableViewController" customModule="Eternity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ll2-Qo-OAR">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.62556380033493042" green="0.75078493356704712" blue="0.91819304227828979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="M8x-oe-gcP"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="downloads" id="vGE-Yx-dcu"/>
+                    <tabBarItem key="tabBarItem" title="Travel" id="vGE-Yx-dcu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YYF-md-SlY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2185" y="346"/>
         </scene>
-        <!--View Controller-->
+        <!--Bills-->
         <scene sceneID="oSK-VE-Tdz">
             <objects>
-                <viewController id="Pb3-Zl-S68" sceneMemberID="viewController">
+                <viewController id="Pb3-Zl-S68" customClass="BillsViewController" customModule="Eternity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AJF-5l-ftH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.50111633539199829" green="0.9110293984413147" blue="0.51848530769348145" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="7DD-Zg-tnp"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="search" id="J2l-t6-qmc"/>
+                    <tabBarItem key="tabBarItem" title="Bills" id="J2l-t6-qmc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CO5-89-W7i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
