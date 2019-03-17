@@ -59,8 +59,6 @@ class ScannerViewController: UIViewController, AVCaptureVideoDataOutputSampleBuf
         self.view.addSubview(button)
     }
     
-    
-    
     @objc func buttonAction(){
         self.performSegue(withIdentifier: "foodVC", sender: self)
         print("HEYYYYYYYYY")
