@@ -19,11 +19,15 @@
 		AAC1FBB8223DF66700590894 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBB7223DF66700590894 /* FoodViewController.swift */; };
 		FB38A5C6223E034600098A7E /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB38A5C5223E034600098A7E /* ScannerViewController.swift */; };
 		FB38A5C8223E049200098A7E /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB38A5C7223E049200098A7E /* MobileNet.mlmodel */; };
-		FB38A5CE223E3EB600098A7E /* pizza, pizza pie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5CA223E3EB500098A7E /* pizza, pizza pie.jpg */; };
-		FB38A5CF223E3EB600098A7E /* orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5CB223E3EB500098A7E /* orange.jpg */; };
-		FB38A5D0223E3EB600098A7E /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5CC223E3EB500098A7E /* apple.jpg */; };
-		FB38A5D1223E3EB600098A7E /* banana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5CD223E3EB500098A7E /* banana.jpg */; };
 		FB38A5D3223E3F1F00098A7E /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB38A5D2223E3F1F00098A7E /* FoodCell.swift */; };
+		FB38A5DD223E4D7600098A7E /* tomatoes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5D5223E4D7600098A7E /* tomatoes.jpg */; };
+		FB38A5DE223E4D7600098A7E /* pizza, pizza pie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5D6223E4D7600098A7E /* pizza, pizza pie.jpg */; };
+		FB38A5DF223E4D7600098A7E /* orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5D7223E4D7600098A7E /* orange.jpg */; };
+		FB38A5E0223E4D7600098A7E /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5D8223E4D7600098A7E /* apple.jpg */; };
+		FB38A5E1223E4D7600098A7E /* avocado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5D9223E4D7600098A7E /* avocado.jpg */; };
+		FB38A5E2223E4D7600098A7E /* banana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5DA223E4D7600098A7E /* banana.jpg */; };
+		FB38A5E3223E4D7600098A7E /* burger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5DB223E4D7600098A7E /* burger.jpg */; };
+		FB38A5E4223E4D7600098A7E /* broccoli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5DC223E4D7600098A7E /* broccoli.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,11 +47,15 @@
 		AAC1FBB7223DF66700590894 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		FB38A5C5223E034600098A7E /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		FB38A5C7223E049200098A7E /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
-		FB38A5CA223E3EB500098A7E /* pizza, pizza pie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pizza, pizza pie.jpg"; sourceTree = "<group>"; };
-		FB38A5CB223E3EB500098A7E /* orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orange.jpg; sourceTree = "<group>"; };
-		FB38A5CC223E3EB500098A7E /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
-		FB38A5CD223E3EB500098A7E /* banana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana.jpg; sourceTree = "<group>"; };
 		FB38A5D2223E3F1F00098A7E /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		FB38A5D5223E4D7600098A7E /* tomatoes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomatoes.jpg; sourceTree = "<group>"; };
+		FB38A5D6223E4D7600098A7E /* pizza, pizza pie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pizza, pizza pie.jpg"; sourceTree = "<group>"; };
+		FB38A5D7223E4D7600098A7E /* orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orange.jpg; sourceTree = "<group>"; };
+		FB38A5D8223E4D7600098A7E /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
+		FB38A5D9223E4D7600098A7E /* avocado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avocado.jpg; sourceTree = "<group>"; };
+		FB38A5DA223E4D7600098A7E /* banana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana.jpg; sourceTree = "<group>"; };
+		FB38A5DB223E4D7600098A7E /* burger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burger.jpg; sourceTree = "<group>"; };
+		FB38A5DC223E4D7600098A7E /* broccoli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broccoli.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +112,7 @@
 				FB38A5D2223E3F1F00098A7E /* FoodCell.swift */,
 				FB38A5C5223E034600098A7E /* ScannerViewController.swift */,
 				FB38A5C7223E049200098A7E /* MobileNet.mlmodel */,
-				FB38A5CB223E3EB500098A7E /* orange.jpg */,
-				FB38A5C9223E3EB500098A7E /* food */,
+				FB38A5D4223E4D7600098A7E /* food */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -127,14 +134,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FB38A5C9223E3EB500098A7E /* food */ = {
+		FB38A5D4223E4D7600098A7E /* food */ = {
 			isa = PBXGroup;
 			children = (
-				FB38A5CA223E3EB500098A7E /* pizza, pizza pie.jpg */,
-				FB38A5CC223E3EB500098A7E /* apple.jpg */,
-				FB38A5CD223E3EB500098A7E /* banana.jpg */,
+				FB38A5D5223E4D7600098A7E /* tomatoes.jpg */,
+				FB38A5D6223E4D7600098A7E /* pizza, pizza pie.jpg */,
+				FB38A5D7223E4D7600098A7E /* orange.jpg */,
+				FB38A5D8223E4D7600098A7E /* apple.jpg */,
+				FB38A5D9223E4D7600098A7E /* avocado.jpg */,
+				FB38A5DA223E4D7600098A7E /* banana.jpg */,
+				FB38A5DB223E4D7600098A7E /* burger.jpg */,
+				FB38A5DC223E4D7600098A7E /* broccoli.jpg */,
 			);
-			path = food;
+			name = food;
+			path = food/food;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,12 +210,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA7ABF0A223DD08F00ECB78F /* LaunchScreen.storyboard in Resources */,
-				FB38A5CE223E3EB600098A7E /* pizza, pizza pie.jpg in Resources */,
+				FB38A5E4223E4D7600098A7E /* broccoli.jpg in Resources */,
 				AA7ABF07223DD08F00ECB78F /* Assets.xcassets in Resources */,
-				FB38A5CF223E3EB600098A7E /* orange.jpg in Resources */,
-				FB38A5D1223E3EB600098A7E /* banana.jpg in Resources */,
-				FB38A5D0223E3EB600098A7E /* apple.jpg in Resources */,
+				FB38A5E0223E4D7600098A7E /* apple.jpg in Resources */,
+				FB38A5DF223E4D7600098A7E /* orange.jpg in Resources */,
 				AA7ABF05223DD08D00ECB78F /* Main.storyboard in Resources */,
+				FB38A5E2223E4D7600098A7E /* banana.jpg in Resources */,
+				FB38A5E3223E4D7600098A7E /* burger.jpg in Resources */,
+				FB38A5DE223E4D7600098A7E /* pizza, pizza pie.jpg in Resources */,
+				FB38A5DD223E4D7600098A7E /* tomatoes.jpg in Resources */,
+				FB38A5E1223E4D7600098A7E /* avocado.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,7 +13,7 @@ import Vision
 class ScannerViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
 
     var lst:[String] = []
-    var foods:[String] = ["apple", "banana", "pizza, pizza pie", "orange", "", "", ""]
+    var foods:[String] = ["icecream", "banana", "pizza, pizza pie", "orange", "burger", "cheeseburger", "hotdog", "broccoli", "pineapple", "", "", ""]
     
     let identifierLabel: UILabel = {
         let label = UILabel()
