@@ -175,6 +175,7 @@
 				AA7ABEF8223DD08D00ECB78F /* Sources */,
 				AA7ABEF9223DD08D00ECB78F /* Frameworks */,
 				AA7ABEFA223DD08D00ECB78F /* Resources */,
+				2DB77F31CD5BAE9BCC7AA4C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,6 +245,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2DB77F31CD5BAE9BCC7AA4C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Eternity/Pods-Eternity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eternity/Pods-Eternity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B3A612AA1584793F01E2DC9F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,7 +449,6 @@
 		};
 		AA7ABF0F223DD08F00ECB78F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6458B9430D9396AE63AB6F3F /* Pods-Eternity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,7 +467,6 @@
 		};
 		AA7ABF10223DD08F00ECB78F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A75722111D4498BEA8A045EF /* Pods-Eternity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
