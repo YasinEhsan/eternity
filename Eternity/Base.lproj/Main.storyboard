@@ -49,7 +49,7 @@
         <!--Scanner-->
         <scene sceneID="I1f-ke-Zwg">
             <objects>
-                <viewController title="Scanner" id="oa8-i8-fBV" sceneMemberID="viewController">
+                <viewController title="Scanner" id="oa8-i8-fBV" customClass="ScannerViewController" customModule="Eternity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OID-q4-38I">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
