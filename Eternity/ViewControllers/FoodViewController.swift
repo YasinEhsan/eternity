@@ -18,13 +18,8 @@ class FoodViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         tableView.dataSource = self
+        tableView.delegate = self
         print(foodLst)
-        
-        NSURL *url = [NSURL URLWithString:""path""];
-        NSData *data = [NSData dataWithContentsOfURL:url];
-        UIImage *img = [[UIImage alloc] initWit                                                                                                                                                                                                                                                                         hData:data];
-        CGSize size = img.size;
-        
     }
     
     @IBAction func add(_ sender: Any) {
@@ -48,7 +43,7 @@ class FoodViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         // Pass the selected object to the new view controller.
-        let viewController: = segue.destination as! ViewController
+        let viewController = segue.destination as! ScannerViewController
         viewController.lst = self.foodLst
         
     }

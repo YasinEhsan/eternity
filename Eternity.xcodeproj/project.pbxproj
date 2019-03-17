@@ -19,6 +19,11 @@
 		AAC1FBB8223DF66700590894 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBB7223DF66700590894 /* FoodViewController.swift */; };
 		FB38A5C6223E034600098A7E /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB38A5C5223E034600098A7E /* ScannerViewController.swift */; };
 		FB38A5C8223E049200098A7E /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB38A5C7223E049200098A7E /* MobileNet.mlmodel */; };
+		FB38A5CE223E3EB600098A7E /* pizza, pizza pie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5CA223E3EB500098A7E /* pizza, pizza pie.jpg */; };
+		FB38A5CF223E3EB600098A7E /* orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5CB223E3EB500098A7E /* orange.jpg */; };
+		FB38A5D0223E3EB600098A7E /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5CC223E3EB500098A7E /* apple.jpg */; };
+		FB38A5D1223E3EB600098A7E /* banana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5CD223E3EB500098A7E /* banana.jpg */; };
+		FB38A5D3223E3F1F00098A7E /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB38A5D2223E3F1F00098A7E /* FoodCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,11 @@
 		AAC1FBB7223DF66700590894 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		FB38A5C5223E034600098A7E /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		FB38A5C7223E049200098A7E /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		FB38A5CA223E3EB500098A7E /* pizza, pizza pie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pizza, pizza pie.jpg"; sourceTree = "<group>"; };
+		FB38A5CB223E3EB500098A7E /* orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orange.jpg; sourceTree = "<group>"; };
+		FB38A5CC223E3EB500098A7E /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
+		FB38A5CD223E3EB500098A7E /* banana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana.jpg; sourceTree = "<group>"; };
+		FB38A5D2223E3F1F00098A7E /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +101,10 @@
 				AAC1FBA9223DF1D400590894 /* HomeViewController.swift */,
 				AAC1FBB5223DF65300590894 /* BillsViewController.swift */,
 				AAC1FBB7223DF66700590894 /* FoodViewController.swift */,
+				FB38A5D2223E3F1F00098A7E /* FoodCell.swift */,
 				FB38A5C5223E034600098A7E /* ScannerViewController.swift */,
 				FB38A5C7223E049200098A7E /* MobileNet.mlmodel */,
+				FB38A5C9223E3EB500098A7E /* food */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -112,6 +124,17 @@
 				29EDD21D817E5908DA2661F4 /* Pods_Eternity.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB38A5C9223E3EB500098A7E /* food */ = {
+			isa = PBXGroup;
+			children = (
+				FB38A5CA223E3EB500098A7E /* pizza, pizza pie.jpg */,
+				FB38A5CB223E3EB500098A7E /* orange.jpg */,
+				FB38A5CC223E3EB500098A7E /* apple.jpg */,
+				FB38A5CD223E3EB500098A7E /* banana.jpg */,
+			);
+			path = food;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +197,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA7ABF0A223DD08F00ECB78F /* LaunchScreen.storyboard in Resources */,
+				FB38A5CE223E3EB600098A7E /* pizza, pizza pie.jpg in Resources */,
 				AA7ABF07223DD08F00ECB78F /* Assets.xcassets in Resources */,
+				FB38A5CF223E3EB600098A7E /* orange.jpg in Resources */,
+				FB38A5D1223E3EB600098A7E /* banana.jpg in Resources */,
+				FB38A5D0223E3EB600098A7E /* apple.jpg in Resources */,
 				AA7ABF05223DD08D00ECB78F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +245,7 @@
 				AAC1FBB6223DF65300590894 /* BillsViewController.swift in Sources */,
 				AAC1FBB0223DF5FE00590894 /* TravelViewController.swift in Sources */,
 				AAC1FBB8223DF66700590894 /* FoodViewController.swift in Sources */,
+				FB38A5D3223E3F1F00098A7E /* FoodCell.swift in Sources */,
 				AAC1FBAA223DF1D400590894 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
