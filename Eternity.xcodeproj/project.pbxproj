@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1B214770223E094E002C93DA /* BillsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B21476F223E094E002C93DA /* BillsCell.swift */; };
+		1B214776223E189D002C93DA /* bill2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B214775223E189D002C93DA /* bill2.jpg */; };
+		1B214778223E18A2002C93DA /* bill3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B214777223E18A2002C93DA /* bill3.jpg */; };
+		1B21477A223E18A5002C93DA /* bill4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B214779223E18A5002C93DA /* bill4.jpg */; };
+		1B21477C223E18A9002C93DA /* bill5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B21477B223E18A9002C93DA /* bill5.jpg */; };
+		1B21477E223E18AE002C93DA /* bill6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B21477D223E18AE002C93DA /* bill6.jpg */; };
 		8C0F6432B62E52F775FA8DAE /* Pods_Eternity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EDD21D817E5908DA2661F4 /* Pods_Eternity.framework */; };
 		AA7ABF00223DD08D00ECB78F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7ABEFF223DD08D00ECB78F /* AppDelegate.swift */; };
 		AA7ABF05223DD08D00ECB78F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7ABF03223DD08D00ECB78F /* Main.storyboard */; };
@@ -22,6 +27,12 @@
 
 /* Begin PBXFileReference section */
 		1B21476F223E094E002C93DA /* BillsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsCell.swift; sourceTree = "<group>"; };
+		1B214774223E1888002C93DA /* bill1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bill1.jpg; sourceTree = "<group>"; };
+		1B214775223E189D002C93DA /* bill2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bill2.jpg; path = ../../../../bill2.jpg; sourceTree = "<group>"; };
+		1B214777223E18A2002C93DA /* bill3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bill3.jpg; path = ../../../../bill3.jpg; sourceTree = "<group>"; };
+		1B214779223E18A5002C93DA /* bill4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bill4.jpg; path = ../../../../bill4.jpg; sourceTree = "<group>"; };
+		1B21477B223E18A9002C93DA /* bill5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bill5.jpg; path = ../../../../bill5.jpg; sourceTree = "<group>"; };
+		1B21477D223E18AE002C93DA /* bill6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bill6.jpg; path = ../../../../bill6.jpg; sourceTree = "<group>"; };
 		29EDD21D817E5908DA2661F4 /* Pods_Eternity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eternity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6458B9430D9396AE63AB6F3F /* Pods-Eternity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eternity.debug.xcconfig"; path = "Target Support Files/Pods-Eternity/Pods-Eternity.debug.xcconfig"; sourceTree = "<group>"; };
 		A75722111D4498BEA8A045EF /* Pods-Eternity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eternity.release.xcconfig"; path = "Target Support Files/Pods-Eternity/Pods-Eternity.release.xcconfig"; sourceTree = "<group>"; };
@@ -50,6 +61,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B214771223E185F002C93DA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1B21477D223E18AE002C93DA /* bill6.jpg */,
+				1B21477B223E18A9002C93DA /* bill5.jpg */,
+				1B214779223E18A5002C93DA /* bill4.jpg */,
+				1B214777223E18A2002C93DA /* bill3.jpg */,
+				1B214775223E189D002C93DA /* bill2.jpg */,
+				1B214774223E1888002C93DA /* bill1.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		AA7ABEF3223DD08D00ECB78F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +109,7 @@
 		AAC1FBAE223DF58E00590894 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1B214771223E185F002C93DA /* Images */,
 				AAC1FBAF223DF5FE00590894 /* TravelViewController.swift */,
 				AAC1FBA9223DF1D400590894 /* HomeViewController.swift */,
 				AAC1FBB5223DF65300590894 /* BillsViewController.swift */,
@@ -171,8 +196,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA7ABF0A223DD08F00ECB78F /* LaunchScreen.storyboard in Resources */,
+				1B21477E223E18AE002C93DA /* bill6.jpg in Resources */,
+				1B214778223E18A2002C93DA /* bill3.jpg in Resources */,
+				1B214776223E189D002C93DA /* bill2.jpg in Resources */,
 				AA7ABF07223DD08F00ECB78F /* Assets.xcassets in Resources */,
 				AA7ABF05223DD08D00ECB78F /* Main.storyboard in Resources */,
+				1B21477C223E18A9002C93DA /* bill5.jpg in Resources */,
+				1B21477A223E18A5002C93DA /* bill4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

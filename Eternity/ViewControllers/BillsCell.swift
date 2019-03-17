@@ -10,7 +10,8 @@ import UIKit
 
 class BillsCell: UITableViewCell {
 
-    @IBOutlet weak var billsImageView: UIView!
+    @IBOutlet weak var billsImageView: UIImageView!
+    
     @IBOutlet weak var billsAmountText: UITextField!
     
     override func awakeFromNib() {
