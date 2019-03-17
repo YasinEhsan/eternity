@@ -13,7 +13,7 @@ import Vision
 class ScannerViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
 
     var lst:[String] = []
-    var foods:[String] = ["icecream", "banana", "pizza, pizza pie", "orange", "burger", "cheeseburger", "hotdog", "broccoli", "pineapple", "meatloaf", "meat cleaver", ""]
+    var foods:[String] = ["icecream", "banana", "pizza, pizza pie", "orange", "burger", "cheeseburger", "hotdog", "broccoli", "pineapple", "meatloaf", "meat cleaver"]
     
     let identifierLabel: UILabel = {
         let label = UILabel()
@@ -51,7 +51,7 @@ class ScannerViewController: UIViewController, AVCaptureVideoDataOutputSampleBuf
         
         setupIdentifierConfidenceLabel()
         
-        let button = UIButton(frame: CGRect(x: 150, y: 620, width: 150, height: 40))
+        let button = UIButton(frame: CGRect(x: 130, y: 670, width: 150, height: 40))
         button.backgroundColor = .green
         button.setTitle("Finish", for: .normal)
         button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)

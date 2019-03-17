@@ -31,6 +31,7 @@
 		FB38A5F9223E560700098A7E /* meatloaf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5EE223E560700098A7E /* meatloaf.jpg */; };
 		FB38A5FA223E560700098A7E /* meat cleaver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5EF223E560700098A7E /* meat cleaver.jpg */; };
 		FB38A5FB223E560700098A7E /* broccoli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5F0223E560700098A7E /* broccoli.jpg */; };
+		FB38A5FD223E570B00098A7E /* button_add-512.png in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5FC223E570B00098A7E /* button_add-512.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		FB38A5EE223E560700098A7E /* meatloaf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meatloaf.jpg; sourceTree = "<group>"; };
 		FB38A5EF223E560700098A7E /* meat cleaver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "meat cleaver.jpg"; sourceTree = "<group>"; };
 		FB38A5F0223E560700098A7E /* broccoli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broccoli.jpg; sourceTree = "<group>"; };
+		FB38A5FC223E570B00098A7E /* button_add-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_add-512.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 				FB38A5E7223E560700098A7E /* pineapple.jpg */,
 				FB38A5E8223E560700098A7E /* pizza, pizza pie.jpg */,
 				FB38A5E9223E560700098A7E /* orange.jpg */,
+				FB38A5FC223E570B00098A7E /* button_add-512.png */,
 				FB38A5EA223E560700098A7E /* apple.jpg */,
 				FB38A5EB223E560700098A7E /* cheeseburger.jpg */,
 				FB38A5EC223E560700098A7E /* icecream.jpg */,
@@ -218,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB38A5FD223E570B00098A7E /* button_add-512.png in Resources */,
 				FB38A5F9223E560700098A7E /* meatloaf.jpg in Resources */,
 				AA7ABF0A223DD08F00ECB78F /* LaunchScreen.storyboard in Resources */,
 				FB38A5F1223E560700098A7E /* hotdog.jpg in Resources */,
