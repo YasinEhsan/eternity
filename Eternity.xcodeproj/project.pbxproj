@@ -17,6 +17,8 @@
 		AAC1FBB0223DF5FE00590894 /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBAF223DF5FE00590894 /* TravelViewController.swift */; };
 		AAC1FBB6223DF65300590894 /* BillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBB5223DF65300590894 /* BillsViewController.swift */; };
 		AAC1FBB8223DF66700590894 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBB7223DF66700590894 /* FoodViewController.swift */; };
+		FB38A5C6223E034600098A7E /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB38A5C5223E034600098A7E /* ScannerViewController.swift */; };
+		FB38A5C8223E049200098A7E /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB38A5C7223E049200098A7E /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		AAC1FBAF223DF5FE00590894 /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
 		AAC1FBB5223DF65300590894 /* BillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsViewController.swift; sourceTree = "<group>"; };
 		AAC1FBB7223DF66700590894 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		FB38A5C5223E034600098A7E /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		FB38A5C7223E049200098A7E /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				AAC1FBA9223DF1D400590894 /* HomeViewController.swift */,
 				AAC1FBB5223DF65300590894 /* BillsViewController.swift */,
 				AAC1FBB7223DF66700590894 /* FoodViewController.swift */,
+				FB38A5C5223E034600098A7E /* ScannerViewController.swift */,
+				FB38A5C7223E049200098A7E /* MobileNet.mlmodel */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -205,6 +211,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB38A5C8223E049200098A7E /* MobileNet.mlmodel in Sources */,
+				FB38A5C6223E034600098A7E /* ScannerViewController.swift in Sources */,
 				AAC1FBA8223DEC0F00590894 /* TableViewController.swift in Sources */,
 				AA7ABF00223DD08D00ECB78F /* AppDelegate.swift in Sources */,
 				AAC1FBB6223DF65300590894 /* BillsViewController.swift in Sources */,

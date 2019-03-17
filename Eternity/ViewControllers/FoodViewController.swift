@@ -8,23 +8,44 @@
 
 import UIKit
 
-class FoodViewController: UIViewController {
+class FoodViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
+    var foodLst:[String] = []
+    
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view, typically from a nib.
+        tableView.dataSource = self
+        tableView.delegate = self
+        print(foodLst)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func add(_ sender: Any) {
+        self.performSegue(withIdentifier: "camera", sender: self)
     }
-    */
+    
+    //self.performSegue(withIdentifier: "camera", sender: self)
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return foodLst.count // number of personal posts
+    }
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = UITableViewCell()
+        
+        cell.textLabel!.text = foodLst[indexPath.row]
+        
+        return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // Pass the selected object to the new view controller.
+        let scannerViewController = segue.destination as! ScannerViewController
+        scannerViewController.lst = self.foodLst
+        
+    }
 
 }
