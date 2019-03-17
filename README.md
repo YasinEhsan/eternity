@@ -1,9 +1,9 @@
 # Eternity
 Hackrpi environmental track iOS app.
 
-**Pitch:** 
+**Pitch:**
 
-**Built With:** Swift, Xcode, Figma, Google Cloud Firebase, IBM Watson Assistant, Twilio
+**Built With:** Swift, Xcode, Apple CoreML, Apple  Google Cloud Firebase, IBM Watson Assistant,
 
 **Inspiration**
 
@@ -27,7 +27,7 @@ Hackrpi environmental track iOS app.
 - [ ] (AI) Bot for speech-to-navigation for easier accessibility (Watson)
 
 ## Roadblocks Overcame
-- **Merge conflicts** with differnt pod folders in different branches (SOLVED!!!). 
+- **Merge conflicts** with different pod folders in different branches (SOLVED!!!).
 
 ## Useful Links
 - [git ignore + storyboard merge conflict resolves](https://guides.codepath.com/ios/Using-Git-with-Terminal)
@@ -38,9 +38,7 @@ Hackrpi environmental track iOS app.
 
 
 ## Team
-- Git Master/Project Manager: **Yasin Ehsan**, Queens College 
-- Full-Stack: **Helal Chowdhury**, NYU 
-- Front-End/ML: **Kevin Chen**, NYU 
+- Git Master/Project Manager: **Yasin Ehsan**, Queens College
+- Full-Stack: **Helal Chowdhury**, NYU
+- Front-End/ML: **Kevin Chen**, NYU
 - Front-End: **Francis Sy**, Queens College (First time working with iOS!)
-
-
