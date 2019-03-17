@@ -169,7 +169,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nHG-HV-Ge1"/>
         <segue reference="Ap3-lo-XXg"/>
     </inferredMetricsTieBreakers>
 </document>

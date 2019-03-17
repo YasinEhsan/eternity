@@ -17,22 +17,22 @@
 		AAC1FBB0223DF5FE00590894 /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBAF223DF5FE00590894 /* TravelViewController.swift */; };
 		AAC1FBB6223DF65300590894 /* BillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBB5223DF65300590894 /* BillsViewController.swift */; };
 		AAC1FBB8223DF66700590894 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC1FBB7223DF66700590894 /* FoodViewController.swift */; };
-		FB38A5C6223E034600098A7E /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB38A5C5223E034600098A7E /* ScannerViewController.swift */; };
-		FB38A5C8223E049200098A7E /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FB38A5C7223E049200098A7E /* MobileNet.mlmodel */; };
-		FB38A5D3223E3F1F00098A7E /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB38A5D2223E3F1F00098A7E /* FoodCell.swift */; };
-		FB38A5F1223E560700098A7E /* hotdog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5E6223E560700098A7E /* hotdog.jpg */; };
-		FB38A5F2223E560700098A7E /* pineapple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5E7223E560700098A7E /* pineapple.jpg */; };
-		FB38A5F3223E560700098A7E /* pizza, pizza pie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5E8223E560700098A7E /* pizza, pizza pie.jpg */; };
-		FB38A5F4223E560700098A7E /* orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5E9223E560700098A7E /* orange.jpg */; };
-		FB38A5F5223E560700098A7E /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5EA223E560700098A7E /* apple.jpg */; };
-		FB38A5F6223E560700098A7E /* cheeseburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5EB223E560700098A7E /* cheeseburger.jpg */; };
-		FB38A5F7223E560700098A7E /* icecream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5EC223E560700098A7E /* icecream.jpg */; };
-		FB38A5F8223E560700098A7E /* banana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5ED223E560700098A7E /* banana.jpg */; };
-		FB38A5F9223E560700098A7E /* meatloaf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5EE223E560700098A7E /* meatloaf.jpg */; };
-		FB38A5FA223E560700098A7E /* meat cleaver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5EF223E560700098A7E /* meat cleaver.jpg */; };
-		FB38A5FB223E560700098A7E /* broccoli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5F0223E560700098A7E /* broccoli.jpg */; };
-		FB38A5FD223E570B00098A7E /* button_add-512.png in Resources */ = {isa = PBXBuildFile; fileRef = FB38A5FC223E570B00098A7E /* button_add-512.png */; };
 		AAD19DCC223E3C6D0076776F /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD19DCB223E3C6D0076776F /* TestViewController.swift */; };
+		AAD19DE2223E6AA20076776F /* pizza, pizza pie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAD19DD6223E6AA00076776F /* pizza, pizza pie.jpg */; };
+		AAD19DE3223E6AA20076776F /* orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAD19DD7223E6AA00076776F /* orange.jpg */; };
+		AAD19DE4223E6AA20076776F /* meatloaf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAD19DD8223E6AA10076776F /* meatloaf.jpg */; };
+		AAD19DE5223E6AA20076776F /* cheeseburger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAD19DD9223E6AA10076776F /* cheeseburger.jpg */; };
+		AAD19DE6223E6AA20076776F /* icecream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAD19DDA223E6AA10076776F /* icecream.jpg */; };
+		AAD19DE7223E6AA20076776F /* hotdog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAD19DDB223E6AA10076776F /* hotdog.jpg */; };
+		AAD19DE8223E6AA20076776F /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAD19DDC223E6AA20076776F /* apple.jpg */; };
+		AAD19DE9223E6AA20076776F /* broccoli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAD19DDD223E6AA20076776F /* broccoli.jpg */; };
+		AAD19DEA223E6AA20076776F /* banana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAD19DDE223E6AA20076776F /* banana.jpg */; };
+		AAD19DEB223E6AA20076776F /* button_add-512.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD19DDF223E6AA20076776F /* button_add-512.png */; };
+		AAD19DEC223E6AA20076776F /* meat cleaver.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAD19DE0223E6AA20076776F /* meat cleaver.jpg */; };
+		AAD19DED223E6AA20076776F /* pineapple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AAD19DE1223E6AA20076776F /* pineapple.jpg */; };
+		AAD19DEF223E6ADA0076776F /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD19DEE223E6ADA0076776F /* ScannerViewController.swift */; };
+		AAD19DF1223E6AE40076776F /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD19DF0223E6AE30076776F /* FoodCell.swift */; };
+		AAD19DF3223E6B040076776F /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AAD19DF2223E6B040076776F /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,22 +50,22 @@
 		AAC1FBAF223DF5FE00590894 /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
 		AAC1FBB5223DF65300590894 /* BillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsViewController.swift; sourceTree = "<group>"; };
 		AAC1FBB7223DF66700590894 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
-		FB38A5C5223E034600098A7E /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
-		FB38A5C7223E049200098A7E /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
-		FB38A5D2223E3F1F00098A7E /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
-		FB38A5E6223E560700098A7E /* hotdog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hotdog.jpg; sourceTree = "<group>"; };
-		FB38A5E7223E560700098A7E /* pineapple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pineapple.jpg; sourceTree = "<group>"; };
-		FB38A5E8223E560700098A7E /* pizza, pizza pie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pizza, pizza pie.jpg"; sourceTree = "<group>"; };
-		FB38A5E9223E560700098A7E /* orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orange.jpg; sourceTree = "<group>"; };
-		FB38A5EA223E560700098A7E /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
-		FB38A5EB223E560700098A7E /* cheeseburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cheeseburger.jpg; sourceTree = "<group>"; };
-		FB38A5EC223E560700098A7E /* icecream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icecream.jpg; sourceTree = "<group>"; };
-		FB38A5ED223E560700098A7E /* banana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana.jpg; sourceTree = "<group>"; };
-		FB38A5EE223E560700098A7E /* meatloaf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meatloaf.jpg; sourceTree = "<group>"; };
-		FB38A5EF223E560700098A7E /* meat cleaver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "meat cleaver.jpg"; sourceTree = "<group>"; };
-		FB38A5F0223E560700098A7E /* broccoli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broccoli.jpg; sourceTree = "<group>"; };
-		FB38A5FC223E570B00098A7E /* button_add-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_add-512.png"; sourceTree = "<group>"; };
 		AAD19DCB223E3C6D0076776F /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		AAD19DD6223E6AA00076776F /* pizza, pizza pie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pizza, pizza pie.jpg"; sourceTree = "<group>"; };
+		AAD19DD7223E6AA00076776F /* orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = orange.jpg; sourceTree = "<group>"; };
+		AAD19DD8223E6AA10076776F /* meatloaf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meatloaf.jpg; sourceTree = "<group>"; };
+		AAD19DD9223E6AA10076776F /* cheeseburger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cheeseburger.jpg; sourceTree = "<group>"; };
+		AAD19DDA223E6AA10076776F /* icecream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icecream.jpg; sourceTree = "<group>"; };
+		AAD19DDB223E6AA10076776F /* hotdog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hotdog.jpg; sourceTree = "<group>"; };
+		AAD19DDC223E6AA20076776F /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
+		AAD19DDD223E6AA20076776F /* broccoli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = broccoli.jpg; sourceTree = "<group>"; };
+		AAD19DDE223E6AA20076776F /* banana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banana.jpg; sourceTree = "<group>"; };
+		AAD19DDF223E6AA20076776F /* button_add-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_add-512.png"; sourceTree = "<group>"; };
+		AAD19DE0223E6AA20076776F /* meat cleaver.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "meat cleaver.jpg"; sourceTree = "<group>"; };
+		AAD19DE1223E6AA20076776F /* pineapple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pineapple.jpg; sourceTree = "<group>"; };
+		AAD19DEE223E6ADA0076776F /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		AAD19DF0223E6AE30076776F /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		AAD19DF2223E6B040076776F /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,12 +120,31 @@
 				AAC1FBA9223DF1D400590894 /* HomeViewController.swift */,
 				AAC1FBB5223DF65300590894 /* BillsViewController.swift */,
 				AAC1FBB7223DF66700590894 /* FoodViewController.swift */,
-				FB38A5D2223E3F1F00098A7E /* FoodCell.swift */,
-				FB38A5C5223E034600098A7E /* ScannerViewController.swift */,
-				FB38A5C7223E049200098A7E /* MobileNet.mlmodel */,
-				FB38A5E5223E560700098A7E /* food */,
+				AAD19DF0223E6AE30076776F /* FoodCell.swift */,
+				AAD19DEE223E6ADA0076776F /* ScannerViewController.swift */,
+				AAD19DD5223E6A850076776F /* food */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AAD19DD5223E6A850076776F /* food */ = {
+			isa = PBXGroup;
+			children = (
+				AAD19DF2223E6B040076776F /* MobileNet.mlmodel */,
+				AAD19DDC223E6AA20076776F /* apple.jpg */,
+				AAD19DDE223E6AA20076776F /* banana.jpg */,
+				AAD19DDD223E6AA20076776F /* broccoli.jpg */,
+				AAD19DDF223E6AA20076776F /* button_add-512.png */,
+				AAD19DD9223E6AA10076776F /* cheeseburger.jpg */,
+				AAD19DDB223E6AA10076776F /* hotdog.jpg */,
+				AAD19DDA223E6AA10076776F /* icecream.jpg */,
+				AAD19DE0223E6AA20076776F /* meat cleaver.jpg */,
+				AAD19DD8223E6AA10076776F /* meatloaf.jpg */,
+				AAD19DD7223E6AA00076776F /* orange.jpg */,
+				AAD19DE1223E6AA20076776F /* pineapple.jpg */,
+				AAD19DD6223E6AA00076776F /* pizza, pizza pie.jpg */,
+			);
+			path = food;
 			sourceTree = "<group>";
 		};
 		E002CAB9AAEACBCE9F049C49 /* Pods */ = {
@@ -143,26 +162,6 @@
 				29EDD21D817E5908DA2661F4 /* Pods_Eternity.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FB38A5E5223E560700098A7E /* food */ = {
-			isa = PBXGroup;
-			children = (
-				FB38A5E6223E560700098A7E /* hotdog.jpg */,
-				FB38A5E7223E560700098A7E /* pineapple.jpg */,
-				FB38A5E8223E560700098A7E /* pizza, pizza pie.jpg */,
-				FB38A5E9223E560700098A7E /* orange.jpg */,
-				FB38A5FC223E570B00098A7E /* button_add-512.png */,
-				FB38A5EA223E560700098A7E /* apple.jpg */,
-				FB38A5EB223E560700098A7E /* cheeseburger.jpg */,
-				FB38A5EC223E560700098A7E /* icecream.jpg */,
-				FB38A5ED223E560700098A7E /* banana.jpg */,
-				FB38A5EE223E560700098A7E /* meatloaf.jpg */,
-				FB38A5EF223E560700098A7E /* meat cleaver.jpg */,
-				FB38A5F0223E560700098A7E /* broccoli.jpg */,
-			);
-			name = food;
-			path = ../../../food;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,21 +223,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB38A5FD223E570B00098A7E /* button_add-512.png in Resources */,
-				FB38A5F9223E560700098A7E /* meatloaf.jpg in Resources */,
 				AA7ABF0A223DD08F00ECB78F /* LaunchScreen.storyboard in Resources */,
-				FB38A5F1223E560700098A7E /* hotdog.jpg in Resources */,
+				AAD19DE2223E6AA20076776F /* pizza, pizza pie.jpg in Resources */,
 				AA7ABF07223DD08F00ECB78F /* Assets.xcassets in Resources */,
-				FB38A5F2223E560700098A7E /* pineapple.jpg in Resources */,
-				FB38A5FA223E560700098A7E /* meat cleaver.jpg in Resources */,
-				FB38A5F6223E560700098A7E /* cheeseburger.jpg in Resources */,
-				FB38A5F7223E560700098A7E /* icecream.jpg in Resources */,
-				FB38A5F8223E560700098A7E /* banana.jpg in Resources */,
+				AAD19DE3223E6AA20076776F /* orange.jpg in Resources */,
+				AAD19DE8223E6AA20076776F /* apple.jpg in Resources */,
+				AAD19DED223E6AA20076776F /* pineapple.jpg in Resources */,
+				AAD19DE6223E6AA20076776F /* icecream.jpg in Resources */,
+				AAD19DEC223E6AA20076776F /* meat cleaver.jpg in Resources */,
+				AAD19DEB223E6AA20076776F /* button_add-512.png in Resources */,
+				AAD19DE7223E6AA20076776F /* hotdog.jpg in Resources */,
+				AAD19DE9223E6AA20076776F /* broccoli.jpg in Resources */,
+				AAD19DE4223E6AA20076776F /* meatloaf.jpg in Resources */,
+				AAD19DE5223E6AA20076776F /* cheeseburger.jpg in Resources */,
+				AAD19DEA223E6AA20076776F /* banana.jpg in Resources */,
 				AA7ABF05223DD08D00ECB78F /* Main.storyboard in Resources */,
-				FB38A5F5223E560700098A7E /* apple.jpg in Resources */,
-				FB38A5FB223E560700098A7E /* broccoli.jpg in Resources */,
-				FB38A5F4223E560700098A7E /* orange.jpg in Resources */,
-				FB38A5F3223E560700098A7E /* pizza, pizza pie.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,15 +273,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB38A5C8223E049200098A7E /* MobileNet.mlmodel in Sources */,
-				FB38A5C6223E034600098A7E /* ScannerViewController.swift in Sources */,
 				AAD19DCC223E3C6D0076776F /* TestViewController.swift in Sources */,
 				AAC1FBA8223DEC0F00590894 /* TableViewController.swift in Sources */,
 				AA7ABF00223DD08D00ECB78F /* AppDelegate.swift in Sources */,
 				AAC1FBB6223DF65300590894 /* BillsViewController.swift in Sources */,
+				AAD19DEF223E6ADA0076776F /* ScannerViewController.swift in Sources */,
 				AAC1FBB0223DF5FE00590894 /* TravelViewController.swift in Sources */,
+				AAD19DF3223E6B040076776F /* MobileNet.mlmodel in Sources */,
+				AAD19DF1223E6AE40076776F /* FoodCell.swift in Sources */,
 				AAC1FBB8223DF66700590894 /* FoodViewController.swift in Sources */,
-				FB38A5D3223E3F1F00098A7E /* FoodCell.swift in Sources */,
 				AAC1FBAA223DF1D400590894 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,13 +430,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VAM3A58Y83;
+				DEVELOPMENT_TEAM = 4L2JW8YQE4;
 				INFOPLIST_FILE = Eternity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yasinehsan.Eternity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinehsan.Eternity2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,13 +449,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VAM3A58Y83;
+				DEVELOPMENT_TEAM = 4L2JW8YQE4;
 				INFOPLIST_FILE = Eternity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yasinehsan.Eternity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yasinehsan.Eternity2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
