@@ -6,5 +6,9 @@ target 'Eternity' do
   use_frameworks!
 
   # Pods for MyApp
+pod 'Firebase/Core'
+pod 'Firebase/Database'
+pod 'Firebase/Storage'
+
   
 end

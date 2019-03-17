@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C0F6432B62E52F775FA8DAE /* Pods_Eternity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EDD21D817E5908DA2661F4 /* Pods_Eternity.framework */; };
+		1B21478A223E7519002C93DA /* BillsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B214789223E7519002C93DA /* BillsCell.swift */; };
+		1B21478C223E7AD9002C93DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B21478B223E7AD9002C93DA /* GoogleService-Info.plist */; };
+		8C0F6432B62E52F775FA8DAE /* Pods_Eternity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29EDD21D817E5908DA2661F4 /* Pods_Eternity.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		AA7ABF00223DD08D00ECB78F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7ABEFF223DD08D00ECB78F /* AppDelegate.swift */; };
 		AA7ABF05223DD08D00ECB78F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7ABF03223DD08D00ECB78F /* Main.storyboard */; };
 		AA7ABF07223DD08F00ECB78F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7ABF06223DD08F00ECB78F /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B214789223E7519002C93DA /* BillsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsCell.swift; sourceTree = "<group>"; };
+		1B21478B223E7AD9002C93DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		29EDD21D817E5908DA2661F4 /* Pods_Eternity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eternity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6458B9430D9396AE63AB6F3F /* Pods-Eternity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eternity.debug.xcconfig"; path = "Target Support Files/Pods-Eternity/Pods-Eternity.debug.xcconfig"; sourceTree = "<group>"; };
 		A75722111D4498BEA8A045EF /* Pods-Eternity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eternity.release.xcconfig"; path = "Target Support Files/Pods-Eternity/Pods-Eternity.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +110,7 @@
 		AA7ABEFE223DD08D00ECB78F /* Eternity */ = {
 			isa = PBXGroup;
 			children = (
+				1B21478B223E7AD9002C93DA /* GoogleService-Info.plist */,
 				AAC1FBAE223DF58E00590894 /* ViewControllers */,
 				AA7ABEFF223DD08D00ECB78F /* AppDelegate.swift */,
 				AA7ABF03223DD08D00ECB78F /* Main.storyboard */,
@@ -129,6 +134,7 @@
 				AAD19DF0223E6AE30076776F /* FoodCell.swift */,
 				AAD19DEE223E6ADA0076776F /* ScannerViewController.swift */,
 				AAD19DD5223E6A850076776F /* food */,
+				1B214789223E7519002C93DA /* BillsCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -182,6 +188,7 @@
 				AA7ABEF8223DD08D00ECB78F /* Sources */,
 				AA7ABEF9223DD08D00ECB78F /* Frameworks */,
 				AA7ABEFA223DD08D00ECB78F /* Resources */,
+				79AE62E55A76DFBD30BC0A2C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,6 +247,7 @@
 				AAD19DE6223E6AA20076776F /* icecream.jpg in Resources */,
 				AAD19DEC223E6AA20076776F /* meat cleaver.jpg in Resources */,
 				AAD19DEB223E6AA20076776F /* button_add-512.png in Resources */,
+				1B21478C223E7AD9002C93DA /* GoogleService-Info.plist in Resources */,
 				AAD19DE7223E6AA20076776F /* hotdog.jpg in Resources */,
 				AAD19DE9223E6AA20076776F /* broccoli.jpg in Resources */,
 				AAD19DE4223E6AA20076776F /* meatloaf.jpg in Resources */,
@@ -252,6 +260,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		79AE62E55A76DFBD30BC0A2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eternity/Pods-Eternity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eternity/Pods-Eternity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B3A612AA1584793F01E2DC9F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -285,6 +321,7 @@
 				AAC1FBA8223DEC0F00590894 /* TableViewController.swift in Sources */,
 				AA7ABF00223DD08D00ECB78F /* AppDelegate.swift in Sources */,
 				AAC1FBB6223DF65300590894 /* BillsViewController.swift in Sources */,
+				1B21478A223E7519002C93DA /* BillsCell.swift in Sources */,
 				AAD19DEF223E6ADA0076776F /* ScannerViewController.swift in Sources */,
 				AAC1FBB0223DF5FE00590894 /* TravelViewController.swift in Sources */,
 				AAD19DF3223E6B040076776F /* MobileNet.mlmodel in Sources */,
