@@ -1,10 +1,11 @@
 # Eternity
 Hackrpi environmental track iOS app.
 
-**Goal:** Build an app that best aligned with Facebook's motto: "Give people the power to build community and bring the world closer together."
+**Pitch:** 
 
 **Built With:** Swift, Xcode, Figma, Google Cloud Firebase, IBM Watson Assistant, Twilio
 
+**Inspiration**
 
 
 ## Video Walkthrough
@@ -14,8 +15,6 @@ Hackrpi environmental track iOS app.
 
 ## Plan --> Prod
 ![](p3.gif)
-
-## Version Control Network
 
 ## Stand-Ups / Milestones
 - [x] (UX) Wireframes
@@ -27,7 +26,7 @@ Hackrpi environmental track iOS app.
 - [ ] (AI) Sentiment-Analysis disabling negative comments (Watson)
 - [ ] (AI) Bot for speech-to-navigation for easier accessibility (Watson)
 
-## Roadblocks
+## Roadblocks Overcame
 - **Merge conflicts** with differnt pod folders in different branches (SOLVED!!!). 
 
 ## Useful Links
@@ -36,6 +35,7 @@ Hackrpi environmental track iOS app.
 - [pod merge conflict](https://medium.com/@amlcurran/how-to-deal-with-conflicts-in-pod-folders-2eb9fa20f465)
 - [Apple ML Kit](https://www.youtube.com/watch?v=p6GA8ODlnX0)
 - [Tripadvisor API (u / p / api code in email)](https://developer-tripadvisor.com/partner/json-api/)
+
 
 ## Team
 - Git Master/Project Manager: **Yasin Ehsan**, Queens College 
