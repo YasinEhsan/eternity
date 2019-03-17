@@ -8,11 +8,19 @@
 
 import UIKit
 
-class BillsViewController: UIViewController {
+class BillsViewController:UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    let data = ["$98.45", "$119.90", "$110.78", "$130.87", "&135.34", "$156.76"]
+   
+    var filteredData: [String]!
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableView.dataSource = self
+        tableView.delegate = self
+        filteredData = data
         // Do any additional setup after loading the view.
     }
     
