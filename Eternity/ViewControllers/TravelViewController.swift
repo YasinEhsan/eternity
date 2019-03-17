@@ -7,24 +7,44 @@
 //
 
 import UIKit
+import MapKit
+import CoreLocation
 
-class TravelViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+class TravelViewController: UIViewController, CLLocationManagerDelegate {
+    @IBOutlet weak var map: MKMapView!
+    
+    let manager = CLLocationManager()
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation])
+    {
+        let location = locations[0]
+        
+        let span:MKCoordinateSpan = MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
+        let myLocation:CLLocationCoordinate2D = CLLocationCoordinate2DMake(location.coordinate.latitude, location.coordinate.longitude)
+        let region:MKCoordinateRegion = MKCoordinateRegion(center: myLocation, span: span)
+        map.setRegion(region, animated: true)
+        
+        print(location.altitude)
+        print(location.speed)
+        
+        self.map.showsUserLocation = true
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    override func viewDidLoad()
+    {
+        super.viewDidLoad()
+        
+        manager.delegate = self
+        manager.desiredAccuracy = kCLLocationAccuracyBest
+        manager.requestWhenInUseAuthorization()
+        manager.startUpdatingLocation()
     }
-    */
-
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
+    
+    
 }
+
